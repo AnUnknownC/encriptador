@@ -1,3 +1,21 @@
 div{
     display:inline;
 }
+
+.textoCriptacion{
+    width: 940px;
+    padding: 5em 0;
+    margin: 1em 3em 2em;
+}
+
+#inputTexto{
+    width: 40%;
+    height: 200px;
+}
+
+#procesoRealizado{
+    width: 40%;
+    height: 200px;
+    border: 1px #000 solid;
+    float: right;
+}

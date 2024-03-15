@@ -11,13 +11,13 @@
 </head>
 <body>
     <header>
-        <h2 class="tituloPrincipal">Encriptador</h1>
-        <h3>Desarrollado por: Daniel Esteban Sanchez Castaño</h3>
+        <p class="tituloPrincipal">Encriptador</p>
+        <p class="creditos">Desarrollado por: Daniel Esteban Sanchez Castaño</p>
     </header>
     <main>
         <section class="seccionCriptacion">
             <section class="cajaReferencia">
-                <textarea name="textoCriptacion" id="inputTexto" class="textoCriptacion" placeholder="Inserte aqui el texto"></textarea>
+                <textarea name="textoCriptacion" id="inputTexto" class="textoCriptacion" placeholder="Inserte aqui el texto" resize=none></textarea>
                 <label for="textoCriptacion" class="aviso"><img src="img/Signo de exclamación_Mesa de trabajo 1.png" class="imagenAviso">Solo letras minusculas y sin acentos</label>
                 <section id="botones">
                     <button onclick="desencriptar()" id="desencriptar" class="boton">Desencriptar</button>
@@ -26,7 +26,7 @@
             </section>
         </section>
         <section class="textoProducido">
-            <div id="procesoRealizado" class="textoCriptacion"></div>
+            <div id="procesoRealizado" class="textoCriptacion" ><!--<boton class="boton" id="copiarTexto">Buenas</boton>-->Aqui aparecera el texto encriptado/desencriptado</div>
         </section>
     </main>
     <script src="index.js" defer></script>
